@@ -50,7 +50,7 @@ try:
 
             # Streaming unsupported.
             # XXX: Support soon.
-            stream = True
+            stream = False
             if stream:
                 response = client.messages.stream(**final_call_params)
             else:
